@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Level 1"
+        android:id="@+id/easy"
+        android:icon="@drawable/circled1"
+        app:showAsAction="always"
+        android:orderInCategory="10"
+        android:iconTint="@color/purple_500"
+        />
+    <item android:title="Level 2"
+        android:id="@+id/mean"
+        android:icon="@drawable/circled2"
+        app:showAsAction="always"
+        android:orderInCategory="11"
+        android:iconTint="@color/purple_500"/>
+    <item android:title="Level 3"
+        android:id="@+id/difficult"
+        android:icon="@drawable/circled3"
+        app:showAsAction="always"
+        android:orderInCategory="12"
+        android:iconTint="@color/purple_500"/>
+    <item android:title="Choose a level"
+        android:id="@+id/about"
+        app:showAsAction="always"
+        android:orderInCategory="12"
+        android:iconTint="@color/purple_500"/>
+</menu>
